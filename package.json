@@ -1,12 +1,12 @@
 {
   "name": "my-app",
+  "homepage": "https://parsa-farshah.github.io/CoffeeShop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "clean": "rm -rf dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
