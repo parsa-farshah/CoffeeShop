@@ -47,7 +47,7 @@ export default function Services() {
               alt={data.nameCoffe}
             />
             <h1 className="text-sm md:text-2xl text-start font-extrabold">{data.nameCoffe}</h1>
-            <p className="text-xs md:text-lg  text-gray-400 pt-5 p-5 text-center font-medium">
+            <p className="text-xs md:text-lg   text-gray-400 pt-5 p-5 text-center font-medium">
               {data.about}
             </p>
           </div>
