@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
+import { Route, Routes } from "react-router";
 
 function App() {
   useEffect(() => {
@@ -14,7 +16,9 @@ function App() {
   });
   return (
     <div className="overflow-x-hidden">
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
